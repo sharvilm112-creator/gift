@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Forever Us ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="heartBg"></canvas>
+<nav id="mainNav">
+<a href="#welcome" class="nav-link active" data-page="0">Welcome</a>
+<a href="#story" class="nav-link" data-page="1">Our Story</a>
+<a href="#reasons" class="nav-link" data-page="2">Reasons</a>
+<a href="#memories" class="nav-link" data-page="3">Memories</a>
+<a href="#forever" class="nav-link" data-page="4">Forever</a>
+</nav>
+<div id="audioToggle" class="audio-btn" aria-label="Toggle Music">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path id="audioWave1" d="M15.54 8.46a5 5 0 010 7.07"/><path id="audioWave2" d="M19.07 4.93a10 10 0 010 14.14"/></svg>
+</div>
+<audio id="bgMusic" loop preload="none"><source src="romantic-bg.mp3" type="audio/mpeg"></audio>
+<section id="welcome" class="page active">
+<div class="hero-content">
+<h1 class="hero-title"><span class="typewriter" data-text="Every Love Story Is Beautiful, But Ours Is My Favorite"></span></h1>
+<p class="hero-sub fade-reveal">A little corner of the internet, made just for you.</p>
+<button class="cta-btn magnetic-btn" onclick="scrollToPage(1)">
+<span>Begin Our Journey</span>
+<div class="btn-glow"></div>
+</button>
+</div>
+<div class="scroll-hint">
+<div class="scroll-arrow"></div>
+</div>
+</section>
+<section id="story" class="page">
+<h2 class="section-title fade-reveal">Our Story</h2>
+<div class="timeline">
+<div class="timeline-line"></div>
+<div class="timeline-event" data-delay="0">
+<div class="timeline-node"></div>
+<div class="timeline-card glass-card">
+<h3>The First Meeting</h3>
+<p>That moment when our eyes met and everything else faded away. I didn't know it yet, but my world was about to change forever.</p>
+</div>
+</div>
+<div class="timeline-event" data-delay="1">
+<div class="timeline-node"></div>
+<div class="timeline-card glass-card">
+<h3>The First Conversation</h3>
+<p>We talked for hours and it felt like minutes. Every word you said made me want to know more, laugh more, stay longer.</p>
+</div>
+</div>
+<div class="timeline-event" data-delay="2">
+<div class="timeline-node"></div>
+<div class="timeline-card glass-card">
+<h3>The First Special Moment</h3>
+<p>The first time I realized you were becoming someone I couldn't imagine my days without. My heart knew before my brain did.</p>
+</div>
+</div>
+<div class="timeline-event" data-delay="3">
+<div class="timeline-node"></div>
+<div class="timeline-card glass-card">
+<h3>Favorite Memory</h3>
+<p>That one memory I replay in my head on loop — where everything was perfect: your laugh, the moment, the way you looked at me.</p>
+</div>
+</div>
+<div class="timeline-event" data-delay="4">
+<div class="timeline-node"></div>
+<div class="timeline-card glass-card">
+<h3>Today & Always</h3>
+<p>Every day with you feels like a new chapter of a story I never want to end. Here we are, still choosing each other.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="reasons" class="page">
+<h2 class="section-title fade-reveal">Reasons I Love You</h2>
+<div class="love-grid">
+<div class="love-card glass-card tilt-card" data-delay="0">
+<div class="card-icon">✨</div>
+<h3>Your Smile</h3>
+<p>It's the most beautiful thing I've ever seen. It could light up the darkest room and melt the coldest heart.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="1">
+<div class="card-icon">🤗</div>
+<h3>Your Hugs</h3>
+<p>The safest place in the world is right there in your arms. Everything feels okay when you hold me.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="2">
+<div class="card-icon">😂</div>
+<h3>Your Laugh</h3>
+<p>That genuine, uncontrollable laugh you have — I'd do anything just to hear it one more time.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="3">
+<div class="card-icon">💪</div>
+<h3>Your Strength</h3>
+<p>The way you handle everything with grace inspires me every single day. You're stronger than you know.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="4">
+<div class="card-icon">🥺</div>
+<h3>Your Kindness</h3>
+<p>You care so deeply about everyone around you. Your heart is genuinely one of a kind.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="5">
+<div class="card-icon">🔥</div>
+<h3>Your Passion</h3>
+<p>When you talk about things you love, your eyes light up and I fall for you all over again.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="6">
+<div class="card-icon">🤪</div>
+<h3>Your Weirdness</h3>
+<p>You're beautifully, perfectly weird — and I wouldn't have it any other way. You match my crazy.</p>
+</div>
+<div class="love-card glass-card tilt-card" data-delay="7">
+<div class="card-icon">💖</div>
+<h3>Just Because You're You</h3>
+<p>I don't need a reason anymore. You being you is more than enough. You are my favorite everything.</p>
+</div>
+</div>
+<div class="love-letter glass-card-premium fade-reveal">
+<div class="letter-border"></div>
+<div class="letter-content">
+<p class="letter-line" data-delay="0">If love were a competition, I'd probably get disqualified because I spend way too much time thinking about you instead of focusing on literally anything else.</p>
+<p class="letter-line" data-delay="1">You somehow became my favorite notification, my favorite distraction, and the reason I randomly smile at my screen like an idiot.</p>
+<p class="letter-line" data-delay="2">Life with you feels like having a best friend, a partner, and a professional troublemaker all in one beautiful package.</p>
+<p class="letter-line" data-delay="3">You make ordinary days feel special, boring moments feel exciting, and even my worst jokes somehow sound funnier when you're around.</p>
+<p class="letter-line" data-delay="4">Out of all the people in this world, you're still my favorite human, my safest place, and the most beautiful plot twist my life has ever had.</p>
+</div>
+</div>
+</section>
+<section id="memories" class="page">
+<h2 class="section-title fade-reveal">Our Memories</h2>
+<div class="gallery">
+<div class="gallery-item hero-reveal fade-reveal" data-delay="0">
+<img src="https://picsum.photos/seed/couple1/800/600.jpg" alt="Memory 1" loading="lazy">
+<div class="gallery-frame"></div>
+<div class="gallery-reflection"></div>
+</div>
+<div class="gallery-item slide-reveal fade-reveal" data-delay="1">
+<img src="https://picsum.photos/seed/couple2/800/600.jpg" alt="Memory 2" loading="lazy">
+<div class="gallery-frame"></div>
+<div class="gallery-reflection"></div>
+</div>
+<div class="gallery-item zoom-reveal fade-reveal" data-delay="2">
+<img src="https://picsum.photos/seed/couple3/800/600.jpg" alt="Memory 3" loading="lazy">
+<div class="gallery-frame"></div>
+<div class="gallery-reflection"></div>
+</div>
+</div>
+</section>
+<section id="forever" class="page">
+<div class="forever-content">
+<h2 class="section-title fade-reveal">Forever & Beyond</h2>
+<div class="heart-container fade-reveal">
+<div class="big-heart" id="bigHeart">
+<svg viewBox="0 0 100 100" class="heart-svg"><path d="M50 88C25 65 5 50 5 30 5 15 15 5 30 5c10 0 18 5 20 12C52 10 60 5 70 5c15 0 25 10 25 25 0 20-20 35-45 58z" fill="#DC143C"/></svg>
+<div class="heart-glow"></div>
+</div>
+<button class="cta-btn magnetic-btn" id="openHeartBtn" onclick="openHeart()">
+<span>Open My Heart</span>
+<div class="btn-glow"></div>
+</button>
+</div>
+<div class="hidden-message" id="hiddenMessage">
+<p class="final-quote">I Loved You Yesterday,<br>I Love You Today,<br>And I'll Love You In Every Tomorrow.</p>
+</div>
+</div>
+</section>
+<div id="fullscreenViewer" class="fullscreen-viewer">
+<button class="close-viewer" onclick="closeViewer()" aria-label="Close">&times;</button>
+<img id="viewerImg" src="" alt="Fullscreen">
+</div>
+<div id="cursorGlow" class="cursor-glow"></div>
+<script src="script.js"></script>
+</body>
+</html>
